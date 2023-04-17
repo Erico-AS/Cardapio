@@ -1,0 +1,98 @@
+@font-face {
+    font-family: "Copperplate";
+    src: url(./CopperplateCC-Full/CopperplateCC/otf/OPTICopperplate-Heavy.otf);
+}
+
+@font-face {
+    font-family: "Cp-bold";
+    src: url(./CopperplateCC-Full/CopperplateCC/otf/CopperplateCC-Bold.otf);
+}
+
+@font-face {
+    font-family: "Cp-heavy";
+    src: url(./copperplate/OPTICopperplate.otf);
+}
+
+body {
+	background-color: #6A9AD9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+    font-size: 29px;
+    color: #ffffff;
+    border-radius: 100%;
+    border: #D99C52 5px solid;
+    width: 27vw;
+    padding-top: 18px;
+    padding-bottom: 26px;
+
+    font-family: "Copperplate";
+}
+
+.moldura {
+    background-color: #2C3673;
+    border-radius: 50%;
+    width: 30vw;
+    height: 17vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-wrapper {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+
+label {
+	font-size: 15px;
+	margin-right: 20px;
+	color: #8C4A23; 
+    font-family: "Cp-bold";
+}
+
+select,
+input[type="text"] {
+	padding: 8px;
+	border-radius: 5px;
+	border: none;
+	font-size: 18px;
+	color: #555;
+	background-color: #F0E8D6; /* Bege claro */
+}
+
+select {
+	margin-right: 20px;
+}
+
+table {
+	margin: 0 auto;
+	border-collapse: collapse;
+    width: 50vw;
+}
+
+th,
+td {
+	padding: 10px;
+	text-align: center;
+}
+
+th {
+	font-size: 18px;
+	background-color: #400D01; /* Vermelho */
+	color: #FFF;
+    font-family: "Cp-heavy";
+}
+
+td {
+	background-color: #F0E8D6; /* Bege claro */
+	color: #555;
+}
